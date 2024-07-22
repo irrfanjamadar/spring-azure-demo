@@ -12,7 +12,7 @@ public class AprojectApplication {
 	@GetMapping("/message")
 	public String getMessage() {
 		
-		return "First Spring boot project in Azure cloud.";
+		return "First Spring boot project in Azure cloud.Test deployment";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(AprojectApplication.class, args);
